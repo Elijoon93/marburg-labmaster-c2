@@ -1,3 +1,28 @@
-# Marburg LabMaster C2
+# Marburg LabMaster C2 Academic
 
-Academic laboratory German learning platform for Chemistry, Quality Control, Food Microbiology, Dairy Chemistry, and Pharmaceutical Laboratory Science.
+وب‌اپ دانشگاهی زبان تخصصی آزمایشگاه برای شیمی، کنترل کیفیت، میکروبیولوژی مواد غذایی، شیمی شیر و صنایع دارویی.
+
+## اجرای برنامه
+
+پس از فعال‌سازی GitHub Pages، برنامه از این مسیر اجرا می‌شود:
+
+`https://elijoon93.github.io/marburg-labmaster-c2/`
+
+## محتوای آموزشی
+
+- ۵۰۱ اصطلاح تخصصی سه‌زبانه آلمانی، فارسی و انگلیسی
+- ۳۰ درس دانشگاهی و کارشناسی‌ارشد
+- ۱۲ پرونده تحلیلی آزمایشگاهی
+- ۸ قالب نگارش علمی و گزارش حرفه‌ای
+- ۸ محاسبه‌گر آزمایشگاهی
+- مسیر آموزشی B1 تا C1/C2 تخصصی
+- حوزه‌های Chemielabor، QC، Lebensmittelmikrobiologie، Milchchemie و Pharma
+- ذخیره پیشرفت و قابلیت اجرای آفلاین
+
+## نصب روی آیفون
+
+لینک برنامه را در Safari باز کنید، گزینه Share را بزنید و سپس Add to Home Screen را انتخاب کنید.
+
+## انتشار
+
+GitHub Pages باید از شاخه `main` و پوشه `/ (root)` فعال شود.
