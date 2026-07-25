@@ -1,5 +1,5 @@
 {
-  "name": "Marburg LabMaster C2 Academic",
+  "name": "Marburg LabMaster C2 Academic — Final",
   "short_name": "LabMaster C2",
   "description": "Professional academic German laboratory learning platform for Chemistry, QC, Food Microbiology, Dairy Chemistry and Pharmaceutical Sciences.",
   "start_url": "./index.html",
@@ -22,5 +22,14 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
+  ],
+  "id": "./",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "categories": [
+    "education",
+    "productivity"
   ]
 }

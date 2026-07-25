@@ -1,25 +1,32 @@
-Marburg LabMaster C2 Academic — Professional Navigation v1.1
-================================================================
+Marburg LabMaster C2 Academic — Final Release v1.2
+===================================================
 
-نسخه جدید رابط کاربری و منو:
-- Navigation Rail حرفه‌ای و گروه‌بندی‌شده در دسکتاپ
-- امکان جمع‌کردن منوی دسکتاپ و حفظ وضعیت آن
-- Command Bar زمینه‌محور با عنوان فعال هر صفحه
-- Dock پنج‌گزینه‌ای مناسب آیفون
-- پنل More برای مسیرهای تکمیلی بدون شلوغی
-- Active State واضح و یکپارچه در همه مسیرها
-- حفظ کامل ۱۰ Route و تمام داده‌ها و قابلیت‌های نسخه Academic v1
+وضعیت: Final Release Candidate validated in Chromium desktop/mobile runtime.
 
-اجرای مستقیم:
-فایل index.html را باز کنید.
+رابط نهایی:
+- Navigation Rail حرفه‌ای و جمع‌شونده در دسکتاپ
+- Command Bar زمینه‌محور
+- Dock پنج‌گزینه‌ای در موبایل
+- پنل More با شش مسیر تکمیلی
+- Active State هماهنگ با ۱۰ Route واقعی
+- بدون اسکرول افقی در اندازه دسکتاپ و موبایل
+- دسترس‌پذیری بهتر با aria-expanded و Focus Visible
 
-انتشار روی GitHub Pages:
-تمام فایل‌های این پوشه باید در ریشه شاخه main باشند.
+محتوا:
+- ۵۰۱ اصطلاح تخصصی سه‌زبانه
+- ۳۰ ماژول دانشگاهی
+- ۱۲ پرونده تصمیم‌گیری
+- ۸ قالب نگارش و ۸ محاسبه‌گر
+- ۱۳ روش آزمایشگاهی، ۸ مکالمه و ۲۸ عبارت دانشگاهی
+
+انتشار GitHub Pages:
+همه فایل‌های این پوشه در ریشه شاخه main قرار می‌گیرند.
 Settings > Pages > Deploy from a branch > main > /(root)
 
-نصب روی آیفون:
-لینک HTTPS را در Safari باز کنید.
-Share > Add to Home Screen
+آدرس:
+https://elijoon93.github.io/marburg-labmaster-c2/
 
-نکته:
-داده‌ها در localStorage همان مرورگر ذخیره می‌شوند. پیش از تعویض مرورگر یا پاک‌کردن داده‌ها، خروجی JSON بگیرید.
+نصب آیفون:
+Safari > Share > Add to Home Screen
+
+داده‌های پیشرفت در localStorage مرورگر ذخیره می‌شوند. قبل از پاک‌سازی مرورگر، خروجی پشتیبان JSON تهیه شود.
