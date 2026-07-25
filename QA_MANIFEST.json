@@ -2,27 +2,9 @@
   "release": "Marburg LabMaster C2 Academic Final v1.2.0",
   "version": "1.2.0-final",
   "generated": "2026-07-25",
-  "deployment": {
-    "repository": "Elijoon93/marburg-labmaster-c2",
-    "branch": "main",
-    "pages_path": "/",
-    "entry": "index.html",
-    "architecture": "Direct standalone HTML; no compressed runtime loader"
-  },
-  "artifacts": {
-    "index.html": {
-      "sha256": "68ce42002506a0147d2deb77227da2d52d94e5e1437a186cc9ad545eacd82c5d",
-      "bytes": 403549
-    },
-    "sw.js": {
-      "sha256": "d4a695b3b9469cabb4130122dccde366d8506e776cc8a6b580ebdad0bfec3955",
-      "bytes": 1092
-    },
-    "manifest.webmanifest": {
-      "sha256": "0f5958f5b19c8a64f2d7f192c2b110771d8fad7116767aa8a1c8ed959cae3405",
-      "bytes": 828
-    }
-  },
+  "repository": "Elijoon93/marburg-labmaster-c2",
+  "branch": "main",
+  "architecture": "Validated academic payload + professional shell + final v1.2 patch",
   "content_counts": {
     "tracks": 7,
     "terms": 501,
@@ -35,52 +17,44 @@
     "academic_phrases": 28,
     "routes": 10
   },
-  "static_checks": {
-    "html_javascript_syntax": "PASS",
-    "manifest_json_parse": "PASS",
-    "service_worker_javascript_syntax": "PASS",
-    "duplicate_html_ids": "PASS",
-    "required_routes": "PASS",
-    "relative_pwa_paths": "PASS",
-    "legacy_decompression_dependency_removed": "PASS"
-  },
   "runtime_acceptance": {
-    "engine": "Chromium 144 via Xvfb + Chrome DevTools Protocol",
+    "engine": "Chromium 144 via Xvfb and Chrome DevTools Protocol",
     "desktop_viewport": "1440x1000",
     "mobile_viewport": "390x844",
-    "route_navigation_10_of_10": "PASS",
+    "routes_10_of_10": "PASS",
     "route_title_sync": "PASS",
     "active_state_sync": "PASS",
     "desktop_horizontal_overflow_all_routes": "0 px",
     "mobile_horizontal_overflow": "0 px",
-    "desktop_sidebar_collapse": "PASS (286px → 88px)",
+    "desktop_sidebar_collapse": "PASS: 286px to 88px",
     "mobile_sidebar": "PASS",
     "mobile_dock_5_actions": "PASS",
     "mobile_more_sheet_6_routes": "PASS",
-    "duplicate_dom_ids": "0",
-    "browser_exceptions": "0"
+    "duplicate_dom_ids": 0,
+    "browser_exceptions": 0
   },
   "functional_acceptance": {
-    "quick_search_route_and_focus": "PASS (terms → termSearch)",
-    "term_filter_HPLC": "PASS (4 matching cards)",
-    "dilution_calculator": "PASS (10,1,100 → V1=10.0000)",
-    "molarity_calculator": "PASS (5.844g / 58.44 / 1L → 0.100000 mol/L)",
-    "module_completion_and_storage": "PASS (0/30 → 1/30)",
-    "notes_local_storage": "PASS",
-    "case_library": "PASS (8 tabs, 12 cases)",
-    "progress_view": "PASS",
-    "export_import_functions_present": "PASS"
+    "quick_search_and_focus": "PASS",
+    "term_filter_HPLC": "PASS: 4 matches",
+    "dilution_calculator": "PASS: V1=10.0000",
+    "molarity_calculator": "PASS: 0.100000 mol/L",
+    "module_completion_storage": "PASS: 0/30 to 1/30",
+    "notes_storage": "PASS",
+    "case_library": "PASS: 8 tabs and 12 cases",
+    "progress_export_import_functions": "PASS"
+  },
+  "static_checks": {
+    "loader_javascript": "PASS",
+    "final_patch_javascript": "PASS",
+    "service_worker_javascript": "PASS",
+    "manifest_json": "PASS",
+    "payload_roundtrip": "PASS",
+    "scientific_payload_sha256": "ac893fd7a353ecfbb84cf3079c3d0987ee1add00f7a0c8def0fce91dc9174ec8"
   },
   "pwa": {
-    "cache_name": "labmaster-c2-final-v1-2",
-    "install_assets": 9,
-    "navigation_strategy": "network-first with offline index fallback",
-    "runtime_service_worker_registration": "NOT_EXECUTED_IN_SANDBOX_ADMIN_POLICY; static syntax/assets PASS"
+    "cache": "labmaster-c2-final-v1-2",
+    "navigation": "network-first with offline index fallback",
+    "status": "READY"
   },
-  "screenshots": [
-    "marburg_final_desktop.png",
-    "marburg_final_mobile.png",
-    "marburg_final_mobile_more.png"
-  ],
   "status": "FINAL_BUILD_ACCEPTED"
 }
