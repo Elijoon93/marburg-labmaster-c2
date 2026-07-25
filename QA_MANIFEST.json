@@ -1,8 +1,80 @@
 {
-  "release": "Marburg LabMaster C2 Academic GitHub Pages v1",
-  "source_sha256": "ac893fd7a353ecfbb84cf3079c3d0987ee1add00f7a0c8def0fce91dc9174ec8",
-  "gzip_sha256": "c13791ec5c56666abdb6d6b91827833ef86e353ee38ce5aa5f95338b36badbf8",
-  "payload_parts": 14,
-  "payload_roundtrip": "PASS",
-  "deployment": "GitHub Pages main/root; HTTPS required"
+  "version": "1.1.0-professional-shell",
+  "generated": "2026-07-25",
+  "source_file": "Marburg_LabMaster_C2_Academic_v1_1_Professional.html",
+  "files": {
+    "QA_MANIFEST.json": {
+      "bytes": 1419,
+      "sha256": "1d01e6bb32311c60645e04b65593a243e7accda296c416fd95264506ca32bad9"
+    },
+    "README_FA.txt": {
+      "bytes": 1272,
+      "sha256": "67867734c6887803a41c12e084a40b1c21829b9378d97d353c423668d5cb7ac7"
+    },
+    "icon-192.png": {
+      "bytes": 9145,
+      "sha256": "22074994aba6b2eeadfb010c03f26d570c73e9a3317d74225f43ca8888e744a2"
+    },
+    "icon-512.png": {
+      "bytes": 28418,
+      "sha256": "2812504113dba6bc38147fc1735e362546f7989bfaabb6c164b683385e4da1c5"
+    },
+    "icon.svg": {
+      "bytes": 711,
+      "sha256": "238e7a1d064ddf0da8a0a5c7edea2095ca3c7815e1b7addb11d797c67daa9aad"
+    },
+    "index.html": {
+      "bytes": 402273,
+      "sha256": "b50db85ec85a0922c3253774cb65c94a83fba42e327594bd32d11e39c9b4f3bb"
+    },
+    "manifest.webmanifest": {
+      "bytes": 681,
+      "sha256": "76e5c23e9b1052e8e3bc1344badd72ec59ed949c8c04df663661a223de776171"
+    },
+    "sw.js": {
+      "bytes": 778,
+      "sha256": "d0e919e0637783fc66310b55a3cd0ac483d45967fc78281a8cc9113b42217428"
+    }
+  },
+  "counts": {
+    "tracks": 7,
+    "terms": 501,
+    "modules": 30,
+    "cases": 12,
+    "writing_templates": 8,
+    "laws": 12,
+    "methods": 13,
+    "dialogs": 8,
+    "academic_phrases": 28
+  },
+  "routes": [
+    "calculators",
+    "cases",
+    "communication",
+    "curriculum",
+    "dashboard",
+    "marburg",
+    "plan",
+    "progressView",
+    "regulations",
+    "terms"
+  ],
+  "checks": {
+    "duplicate_html_ids": [],
+    "data_json_parse": "PASS",
+    "required_views": "PASS",
+    "javascript_syntax_node": "PASS",
+    "navigation_targets": "PASS",
+    "desktop_navigation_rail": "PASS",
+    "mobile_dock": "PASS",
+    "mobile_more_sheet": "PASS",
+    "collapsible_navigation": "PASS",
+    "route_context_bar": "PASS",
+    "runtime_screenshot": "NOT_COMPLETED_SANDBOX_CHROMIUM_TIMEOUT"
+  },
+  "notes": [
+    "ساختار، شناسه‌ها، داده، JavaScript و تمام Routeهای منو کنترل شدند.",
+    "بازطراحی فقط پوسته نیست؛ تمام دکمه‌های منو به Viewهای واقعی موجود متصل‌اند.",
+    "Chromium محیط ساخت هنگام screenshot متوقف شد؛ پذیرش تصویری نهایی روی Safari آیفون و مرورگر دسکتاپ لازم است."
+  ]
 }
