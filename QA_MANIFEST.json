@@ -1,0 +1,8 @@
+{
+  "release": "Marburg LabMaster C2 Academic GitHub Pages v1",
+  "source_sha256": "ac893fd7a353ecfbb84cf3079c3d0987ee1add00f7a0c8def0fce91dc9174ec8",
+  "gzip_sha256": "c13791ec5c56666abdb6d6b91827833ef86e353ee38ce5aa5f95338b36badbf8",
+  "payload_parts": 14,
+  "payload_roundtrip": "PASS",
+  "deployment": "GitHub Pages main/root; HTTPS required"
+}
