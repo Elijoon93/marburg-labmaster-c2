@@ -1,20 +1,16 @@
 {
-  "name": "Marburg LabMaster C2 Academic",
+  "id": "./",
+  "name": "Marburg LabMaster C2 Academic — Final",
   "short_name": "LabMaster C2",
   "description": "Academic German laboratory learning platform for Chemistry, QC, Food Microbiology, Dairy Chemistry and Pharmaceutical Sciences.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#091827",
-  "theme_color": "#091827",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#071624",
+  "theme_color": "#071624",
   "lang": "fa",
   "dir": "rtl",
-  "icons": [
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
+  "categories": ["education", "productivity"],
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }
