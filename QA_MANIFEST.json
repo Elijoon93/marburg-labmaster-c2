@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": "1.1.0-professional-shell",
   "generated": "2026-07-25",
   "source_file": "Marburg_LabMaster_C2_Academic_v1_1_Professional.html",
@@ -34,6 +35,30 @@
     "sw.js": {
       "bytes": 778,
       "sha256": "d0e919e0637783fc66310b55a3cd0ac483d45967fc78281a8cc9113b42217428"
+=======
+  "release": "Marburg LabMaster C2 Professional Navigation v1.1",
+  "generated": "2026-07-25",
+  "deployment": {
+    "repository": "Elijoon93/marburg-labmaster-c2",
+    "branch": "main",
+    "pages_path": "/",
+    "strategy": "Preserve Academic v1 scientific payload and inject a versioned professional navigation shell before rendering."
+  },
+  "scientific_payload": {
+    "payload_parts": 14,
+    "source_sha256": "ac893fd7a353ecfbb84cf3079c3d0987ee1add00f7a0c8def0fce91dc9174ec8",
+    "payload_roundtrip": "PASS",
+    "content_preserved": true
+  },
+  "professional_shell": {
+    "css": {
+      "path": "professional-shell-v1.1.css",
+      "sha256": "c440efb534d2b435a74b0bc0ffc90b82ad93d6bffd0a099d75117ff0c200e99b"
+    },
+    "javascript": {
+      "path": "professional-shell-v1.1.js",
+      "sha256": "20747d1dbdd12ee857a431ab5fe2f1f3266d99ba87dd19492c9c7a03aba3a7b8"
+>>>>>>> f9347cb7174db18e32dc887be9f14db78fdbc7a9
     }
   },
   "counts": {
@@ -45,6 +70,7 @@
     "laws": 12,
     "methods": 13,
     "dialogs": 8,
+<<<<<<< HEAD
     "academic_phrases": 28
   },
   "routes": [
@@ -61,11 +87,31 @@
   ],
   "checks": {
     "duplicate_html_ids": [],
+=======
+    "academic_phrases": 28,
+    "routes": 10
+  },
+  "routes": [
+    "dashboard",
+    "curriculum",
+    "terms",
+    "cases",
+    "communication",
+    "calculators",
+    "plan",
+    "marburg",
+    "regulations",
+    "progressView"
+  ],
+  "checks": {
+    "duplicate_html_ids": "PASS",
+>>>>>>> f9347cb7174db18e32dc887be9f14db78fdbc7a9
     "data_json_parse": "PASS",
     "required_views": "PASS",
     "javascript_syntax_node": "PASS",
     "navigation_targets": "PASS",
     "desktop_navigation_rail": "PASS",
+<<<<<<< HEAD
     "mobile_dock": "PASS",
     "mobile_more_sheet": "PASS",
     "collapsible_navigation": "PASS",
@@ -76,5 +122,23 @@
     "ساختار، شناسه‌ها، داده، JavaScript و تمام Routeهای منو کنترل شدند.",
     "بازطراحی فقط پوسته نیست؛ تمام دکمه‌های منو به Viewهای واقعی موجود متصل‌اند.",
     "Chromium محیط ساخت هنگام screenshot متوقف شد؛ پذیرش تصویری نهایی روی Safari آیفون و مرورگر دسکتاپ لازم است."
+=======
+    "mobile_dock_five_actions": "PASS",
+    "mobile_more_sheet_six_routes": "PASS",
+    "collapsible_navigation": "PASS",
+    "route_context_bar": "PASS",
+    "active_state_sync": "PASS",
+    "offline_cache_version": "labmaster-c2-professional-v1-1",
+    "runtime_screenshot": "NOT_COMPLETED_SANDBOX_CHROMIUM_TIMEOUT"
+  },
+  "local_release_files": {
+    "standalone_sha256": "b50db85ec85a0922c3253774cb65c94a83fba42e327594bd32d11e39c9b4f3bb",
+    "pwa_zip_sha256": "64a00a3bd9bb3a44c9040511b8d41b1ca06b1ff393679f8035ad791ac4f730c6"
+  },
+  "notes": [
+    "تمام دکمه‌های منو به Viewهای واقعی موجود متصل‌اند.",
+    "بانک واژگان، درس‌ها، پرونده‌ها، محاسبه‌گرها و داده‌های localStorage حذف یا بازنویسی نشده‌اند.",
+    "کنترل تصویری خودکار در Chromium محیط ساخت به علت توقف فرایند کامل نشد؛ پذیرش تصویری Safari آیفون و مرورگر دسکتاپ همچنان لازم است."
+>>>>>>> f9347cb7174db18e32dc887be9f14db78fdbc7a9
   ]
 }
