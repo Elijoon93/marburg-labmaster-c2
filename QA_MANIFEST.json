@@ -1,10 +1,10 @@
 {
-  "release": "Marburg LabMaster C2 Academic Final v1.2.0",
-  "version": "1.2.0-final",
-  "generated": "2026-07-25",
+  "release": "Marburg LabMaster C2 Academic 2.0 Release Candidate",
+  "version": "2.0.0-rc1",
+  "generated": "2026-07-29",
   "repository": "Elijoon93/marburg-labmaster-c2",
-  "branch": "main",
-  "architecture": "Validated academic payload + professional shell + final v1.2 patch",
+  "branch": "final-release-v2-audit",
+  "status": "CONDITIONAL_PASS_RELEASE_CANDIDATE",
   "content_counts": {
     "tracks": 7,
     "terms": 501,
@@ -15,46 +15,35 @@
     "methods": 13,
     "dialogs": 8,
     "academic_phrases": 28,
+    "programs": 4,
+    "laws": 12,
+    "sources": 15,
     "routes": 10
   },
-  "runtime_acceptance": {
-    "engine": "Chromium 144 via Xvfb and Chrome DevTools Protocol",
-    "desktop_viewport": "1440x1000",
-    "mobile_viewport": "390x844",
-    "routes_10_of_10": "PASS",
-    "route_title_sync": "PASS",
-    "active_state_sync": "PASS",
-    "desktop_horizontal_overflow_all_routes": "0 px",
-    "mobile_horizontal_overflow": "0 px",
-    "desktop_sidebar_collapse": "PASS: 286px to 88px",
-    "mobile_sidebar": "PASS",
-    "mobile_dock_5_actions": "PASS",
-    "mobile_more_sheet_6_routes": "PASS",
-    "duplicate_dom_ids": 0,
-    "browser_exceptions": 0
+  "gates": {
+    "source": "PASS",
+    "syntax": "PASS",
+    "browser_runtime": "PASS_WITH_MEMORY_STORAGE_ADAPTER",
+    "functional": "PASS_WITH_MEMORY_STORAGE_ADAPTER",
+    "responsive": "PASS",
+    "pwa": "CONDITIONAL_PASS_STATIC_ONLY",
+    "github_pages": "CONDITIONAL_PASS_NOT_DEPLOYED",
+    "content": "CONDITIONAL_PASS_STRUCTURAL_AND_TARGETED_REVIEW",
+    "accessibility": "PASS_AUTOMATED_HEURISTIC",
+    "release_package": "PASS_RC"
   },
-  "functional_acceptance": {
-    "quick_search_and_focus": "PASS",
-    "term_filter_HPLC": "PASS: 4 matches",
-    "dilution_calculator": "PASS: V1=10.0000",
-    "molarity_calculator": "PASS: 0.100000 mol/L",
-    "module_completion_storage": "PASS: 0/30 to 1/30",
-    "notes_storage": "PASS",
-    "case_library": "PASS: 8 tabs and 12 cases",
-    "progress_export_import_functions": "PASS"
+  "runtime": {
+    "viewports": ["1440x1000","1024x768","768x900","412x915","390x844","375x812","360x780","320x700"],
+    "routes": 10,
+    "max_horizontal_overflow_px": 0,
+    "errors": [],
+    "duplicate_ids": 0
   },
-  "static_checks": {
-    "loader_javascript": "PASS",
-    "final_patch_javascript": "PASS",
-    "service_worker_javascript": "PASS",
-    "manifest_json": "PASS",
-    "payload_roundtrip": "PASS",
-    "scientific_payload_sha256": "ac893fd7a353ecfbb84cf3079c3d0987ee1add00f7a0c8def0fce91dc9174ec8"
-  },
-  "pwa": {
-    "cache": "labmaster-c2-final-v1-2",
-    "navigation": "network-first with offline index fallback",
-    "status": "READY"
-  },
-  "status": "FINAL_BUILD_ACCEPTED"
+  "not_run": [
+    "GitHub Pages v2 production",
+    "Real Android install/offline",
+    "Real iPhone Safari install/offline",
+    "Full independent native-language review",
+    "Formal WCAG conformance audit"
+  ]
 }
