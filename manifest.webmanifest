@@ -1,16 +1,27 @@
 {
   "id": "./",
-  "name": "Marburg LabMaster C2 Academic — Final",
+  "name": "Marburg LabMaster C2 Academic",
   "short_name": "LabMaster C2",
-  "description": "Academic German laboratory learning platform for Chemistry, QC, Food Microbiology, Dairy Chemistry and Pharmaceutical Sciences.",
+  "description": "Academic German laboratory learning platform for chemistry, quality control, food microbiology, dairy chemistry and pharmaceutical sciences.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "background_color": "#071624",
-  "theme_color": "#071624",
+  "theme_color": "#091827",
   "lang": "fa",
   "dir": "rtl",
-  "categories": ["education", "productivity"],
-  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+  "orientation": "any",
+  "categories": ["education", "productivity", "medical"],
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"},
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ],
+  "shortcuts": [
+    {"name":"واژگان تخصصی","short_name":"واژگان","url":"./#terms","icons":[{"src":"./icon-192.png","sizes":"192x192"}]},
+    {"name":"دروس دانشگاهی","short_name":"دروس","url":"./#curriculum","icons":[{"src":"./icon-192.png","sizes":"192x192"}]},
+    {"name":"پیشرفت","short_name":"پیشرفت","url":"./#progressView","icons":[{"src":"./icon-192.png","sizes":"192x192"}]}
+  ]
 }
